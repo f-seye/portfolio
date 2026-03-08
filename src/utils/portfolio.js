@@ -23,6 +23,11 @@ const portfolio = {
       color: "#f29900",
     },
     {
+      category: "Frameworks",
+      items: ["Flask", "React", "Vue","Spring Boot"],
+      color: "#ea4335",
+    },
+    {
       category: "Intérêts",
       items: ["Intelligence Artificielle", "Cybersécurité", "Développement de logiciels"],
       color: "#ea4335",
