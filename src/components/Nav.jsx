@@ -124,36 +124,8 @@ export default function Nav({ activeSection }) {
         </ul>
       )}
 
-      {/* Bouton contact desktop */}
-      {!isMobile && (
-        <a
-          href={`mailto:${portfolio.email}`}
-          style={{
-            fontFamily: "DM Sans, sans-serif",
-            fontSize: "0.875rem",
-            fontWeight: 600,
-            color: "#fff",
-            textDecoration: "none",
-            background: "#1a73e8",
-            padding: "0.5rem 1.25rem",
-            borderRadius: "20px",
-            transition: "background 0.2s, box-shadow 0.2s",
-            boxShadow: "0 1px 3px rgba(26,115,232,0.3)",
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.background = "#1557b0";
-            e.currentTarget.style.boxShadow = "0 2px 8px rgba(26,115,232,0.4)";
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.background = "#1a73e8";
-            e.currentTarget.style.boxShadow = "0 1px 3px rgba(26,115,232,0.3)";
-          }}
-        >
-          Contact
-        </a>
-      )}
 
-      {/* Bouton hamburger mobile */}
+      {/* Bouton Menu pour mobile */}
       {isMobile && (
         <button
           onClick={() => setMenuOpen((prev) => !prev)}
@@ -210,23 +182,7 @@ export default function Nav({ activeSection }) {
               {link.label}
             </a>
           ))}
-          <a
-            href={`mailto:${portfolio.email}`}
-            style={{
-              marginTop: "0.75rem",
-              fontFamily: "DM Sans, sans-serif",
-              fontSize: "0.9rem",
-              fontWeight: 600,
-              color: "#fff",
-              textDecoration: "none",
-              background: "#1a73e8",
-              padding: "0.75rem 1.25rem",
-              borderRadius: "20px",
-              textAlign: "center",
-            }}
-          >
-            Envoyer un email
-          </a>
+          
         </div>
       )}
     </nav>
