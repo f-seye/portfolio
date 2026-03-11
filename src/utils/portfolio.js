@@ -30,7 +30,7 @@ const portfolio = {
     {
       category: "Intérêts",
       items: ["Intelligence Artificielle", "Cybersécurité", "Développement de logiciels"],
-      color: "#ea4335",
+      color: "#c335ea",
     },
   ],
   projects: [
@@ -51,6 +51,15 @@ const portfolio = {
       github: "https://github.com/f-seye/fintrack",
       category: "Web App",
       accent: "#0f9d58",
+    },
+    {
+      title: "SleepAI",
+      description:
+        "Application de prédiction de la qualité du sommeil. L'utilisateur répond à 9 questions via un chatbot conversationnel, puis reçoit un score de 0 à 100 et des conseils personnalisés générés à partir de ses réponses.",
+      tech: ["Python", "scikit-learn", "Flask", "React"],
+      github: "https://github.com/f-seye/sleepai",
+      category: "Machine Learning",
+      accent: "#a62121",
     },
   ],
 };
