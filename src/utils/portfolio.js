@@ -57,7 +57,7 @@ const portfolio = {
       description:
         "Application de prédiction de la qualité du sommeil. L'utilisateur répond à 9 questions via un chatbot conversationnel, puis reçoit un score de 0 à 100 et des conseils personnalisés générés à partir de ses réponses.",
       tech: ["Python", "scikit-learn", "Flask", "React"],
-      github: "https://github.com/f-seye/sleepai",
+      github: "https://github.com/f-seye/sleepAi",
       category: "Machine Learning",
       accent: "#a62121",
     },
