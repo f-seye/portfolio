@@ -1,7 +1,7 @@
 const portfolio = {
   name: "Fama SEYE",
   title: "Étudiante en Troisième année de Licence en Informatique",
-  about: `Étudiante en informatique avec un intérêt particulier pour l'intelligence artificielle, le génie logiciel et la cybersécurité. Curieuse, rigoureuse et motivée, je suis à la recherche d'un stage à partir du mois de mai et d'une alternance pour la rentrée prochaine.`,
+  about: `Étudiante en informatique avec un intérêt particulier pour l'intelligence artificielle et la cybersécurité. Curieuse, rigoureuse et motivée, je suis à la recherche d'un stage à partir du mois de mai et d'une alternance pour la rentrée prochaine.`,
   email: "famasseye@gmail.com",
   github: "https://github.com/f-seye",
   linkedin: "https://www.linkedin.com/in/fama-seye-4811312b5/",
@@ -25,11 +25,6 @@ const portfolio = {
       category: "Outils et environnements",
       items: ["Git", "Linux", "PostgreSQL","MySQL","Excel"],
       color: "#f29900",
-    },
-    {
-      category: "Intérêts",
-      items: ["Intelligence Artificielle", "Cybersécurité", "Développement de logiciels"],
-      color: "#c335ea",
     },
   ],
   projects: [
