@@ -41,7 +41,7 @@ const portfolio = {
       title: "Stéganographie",
       category: "Cybersécurité",
       description:
-        "Dissimulation de messages chiffrés dans des images PNG.",
+        "Dissimulation et extraction de messages chiffrés dans des images PNG.",
       tech: ["Python", "Cryptographie", "Pillow", "NumPy", "Flask"],
       github: "https://github.com/f-seye/stegano",
       accent: "#5a96b6",
