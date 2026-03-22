@@ -1,7 +1,7 @@
 const portfolio = {
   name: "Fama SEYE",
-  title: "Étudiante en Troisième année de Licence en Informatique",
-  about: `Étudiante en informatique passionnée par l'intelligence artificielle et le développement de logiciels. Curieuse, rigoureuse et motivée, je suis à la recherche d'un stage à partir du mois de mai et d'une alternance pour la rentrée prochaine.`,
+  title: "Licence 3 en Informatique",
+  about: `Étudiante en informatique à l'université de Bordeaux. Mes principaux centres d'intérets sont l'intelligence artificielle, la cybersécurité et le développement de logiciels. Je suis à la recherche d'un stage à partir du mois de mai et d'une alternance pour la rentrée de septembre 2026.`,
   email: "famasseye@gmail.com",
   github: "https://github.com/f-seye",
   linkedin: "https://www.linkedin.com/in/fama-seye-4811312b5/",
