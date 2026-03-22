@@ -38,6 +38,15 @@ const portfolio = {
       accent: "#a62121",
     },
     {
+      title: "Stéganographie",
+      category: "Cybersécurité",
+      description:
+        "Dissimulation de messages chiffrés dans des images PNG.",
+      tech: ["Python", "Cryptographie", "Pillow", "NumPy", "Flask"],
+      github: "https://github.com/f-seye/stegano",
+      accent: "#5a96b6",
+    },
+    {
       title: "DNS Ad Blocker",
       description:
         "Serveur DNS local qui bloque les domaines publicitaires et malveillants en interceptant les requêtes DNS. Télécharge automatiquement des blocklists open source (StevenBlack, oisd) et redirige les domaines indésirables vers 0.0.0.0. Déployé via Docker.",
